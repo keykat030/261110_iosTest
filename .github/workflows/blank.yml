@@ -40,7 +40,7 @@ jobs:
 
           mkdir -p Payload
 
-          cp -r build/Release-iphoneos/build.app Payload/  # (프로젝트 구조에 맞춰 .app 경로 지정)
+          cp -r GitHub\261110_iosTest # (프로젝트 구조에 맞춰 .app 경로 지정)
 
           zip -r app-unsigned.ipa Payload
 
